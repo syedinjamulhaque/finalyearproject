@@ -1,14 +1,5 @@
+import Assistant from "@/components/Assistant";
 
-import React from 'react'
-
-const Assist = () => {
-  return (
-    <>
-    <div className="min-h-screen flex items-center justify-center text-4xl font-semibold">
-      Will come soon
-    </div>
-    </>
-  )
+export default function AssistantPage() {
+  return <Assistant />;
 }
-
-export default Assist
