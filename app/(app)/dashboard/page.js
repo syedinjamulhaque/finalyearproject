@@ -1,13 +1,6 @@
-import React from 'react'
-
+import SmartDashboard from "../../../components/SmartDashboard";
 const Dashboard = () => {
-  return (
-    <>
-    <div className="min-h-screen flex items-center justify-center text-4xl font-semibold">
-      Will come soon
-    </div>
-    </>
-  )
-}
+  return <SmartDashboard />;
+};
 
-export default Dashboard
+export default Dashboard;
